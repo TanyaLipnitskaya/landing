@@ -1,0 +1,23 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanyaLipnitskaya/landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanyaLipnitskaya/landing/issues"
+  },
+  "homepage": "https://github.com/TanyaLipnitskaya/landing#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.15.2"
+  }
+}

@@ -1,0 +1,43 @@
+.background {
+    .bgimage {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+body {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    justify-self: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    margin: auto;
+    left: 0;
+
+    right: 0;
+
+
+    .logo {
+        color: black;
+    }
+
+    .nav {
+        .active {}
+    }
+
+    .signup {}
+
+    .login {}
+
+    .minimenu {}
+}
